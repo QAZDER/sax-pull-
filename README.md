@@ -1,2 +1,5 @@
-# sax-pull-
+# sax-pull
 通过pull，sax对xml文件解析解析
+ 使用okhttp从本地获取apache服务器中的xml文件
+ 获取xmlpullparsefactory实例，生成xmlpullparse对象。使用setInput获取输入流，getEventType方法得到解析事件，在while中遍历节点。
+ sax解析：继承defaultHandler类，在startDocument中初始化，在characters方法对当前节点进行判断。
